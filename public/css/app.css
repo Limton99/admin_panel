@@ -1,0 +1,63 @@
+body {
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+}
+
+.profile_info {
+    padding: 3%;
+}
+
+.profile_info li{
+    padding-top: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.aliases {
+    margin: 2%;
+    padding: 2%;
+    width: 30%;
+    color: gray;
+    height: fit-content;
+}
+
+.alias {
+    border-bottom: 0.5px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dropdown-alias{
+    display: none;
+}
+
+.dropdown-alias button{
+    padding: 5px;
+    font-size: 12px;
+}
+
+.add-alias {
+    display: none;
+}
+
+.main-menu a:hover, .main-menu a:focus {
+    text-decoration: none;
+    color: #162029;
+    background-color: #162029;
+}
+
+.sidebar-dropdown {
+    background-color: #1d2b36;
+}
+
+.menu-collapsed .header-navbar .navbar-wrapper .navbar-header .navbar-nav .nav-item .navbar-brand {
+    display: none;
+}
+

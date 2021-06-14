@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models\Specialist;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class SpecialistWallet extends Model
+{
+    use HasFactory;
+
+    protected $connection = 'pgsql';
+    protected $table = 'specialist_wallets';
+}
